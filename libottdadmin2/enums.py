@@ -108,16 +108,16 @@ class PollExtra(EnumHelper):
 class Action(EnumHelper):
     JOIN                = 0x00
     LEAVE               = 0x01
-    KICK                = 0x02
-    SERVER_MESSAGE      = 0x03
-    CHAT                = 0x04
-    CHAT_COMPANY        = 0x05
-    CHAT_CLIENT         = 0x06
-    GIVE_MONEY          = 0x07
-    NAME_CHANGE         = 0x08
-    COMPANY_SPECTATOR   = 0x09
-    COMPANY_JOIN        = 0x0A
-    COMPANY_NEW         = 0x0B
+    SERVER_MESSAGE      = 0x02
+    CHAT                = 0x03
+    CHAT_COMPANY        = 0x04
+    CHAT_CLIENT         = 0x05
+    GIVE_MONEY          = 0x06
+    NAME_CHANGE         = 0x07
+    COMPANY_SPECTATOR   = 0x08
+    COMPANY_JOIN        = 0x09
+    COMPANY_NEW         = 0x0A
+    KICK                = 0x0B
 
 class ErrorCode(EnumHelper):
     GENERAL             = 0x00  #< Try to use this one like never
